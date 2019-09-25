@@ -1,5 +1,6 @@
 package Test;
 
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
@@ -14,11 +15,11 @@ public abstract class AbstractTest {
         driver=new ChromeDriver();
     }
 
-    //TODO nepamirsti atkomentuoti
-/*@AfterClass
+
+    @AfterClass
     public static void closeBrowser(){
     driver.quit();
-}*/
+    }
 
     @Before
     public void goToPage(){

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cf1b010-f1d0-4d9b-ace6-8969eaf92618" name="Default Changelist" comment="" />
+    <list default="true" id="4cf1b010-f1d0-4d9b-ace6-8969eaf92618" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Test/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Test/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestItemAvailability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestItemAvailability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/AbstractTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/AbstractTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestItemAvailability.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestItemAvailability.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,10 +87,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Test/AbstractTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+            <state relative-caret-position="107">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
                 <element signature="e#366#367#0" expanded="true" />
                 <element signature="e#413#414#0" expanded="true" />
               </folding>
@@ -93,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestItemAvailability.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="23" column="90" lean-forward="true" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
+            <state relative-caret-position="256">
+              <caret line="73" column="91" selection-start-line="73" selection-start-column="91" selection-end-line="73" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/ProductPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="152">
               <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -152,6 +162,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -163,8 +176,8 @@
         <option value="$PROJECT_DIR$/file2.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Pages/CategoryPage.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Test/AbstractTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Pages/ProductPage.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Test/AbstractTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestItemAvailability.java" />
       </list>
     </option>
@@ -176,12 +189,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-49" />
-    <option name="y" value="16" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="550" />
+    <option name="y" value="10" />
     <option name="width" value="832" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -257,6 +271,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -310,14 +325,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569391391472</updated>
-      <workItem from="1569391394735" duration="5001000" />
+      <workItem from="1569391394735" duration="6703000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestItemAvailability_checkItemAvailability - 2019.09.25 at 09h 55m 44s.xml">
-      <configuration name="TestItemAvailability.checkItemAvailability" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestItemAvailability_checkItemAvailability - 2019.09.25 at 09h 57m 08s.xml">
       <configuration name="TestItemAvailability.checkItemAvailability" configurationId="JUnit" />
     </history-entry>
@@ -345,29 +357,33 @@
     <history-entry file="TestItemAvailability_checkItemAvailability - 2019.09.25 at 10h 23m 00s.xml">
       <configuration name="TestItemAvailability.checkItemAvailability" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestItemAvailability_checkItemAvailability - 2019.09.25 at 11h 00m 25s.xml">
+      <configuration name="TestItemAvailability.checkItemAvailability" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5001000" />
+    <option name="totallyTimeSpent" value="6703000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="550" y="10" width="832" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31088084" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33388704" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,18 +448,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/AbstractPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Test/AbstractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -460,31 +484,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Test/AbstractTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/AbstractPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/ProductPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="152">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -500,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestItemAvailability.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="23" column="90" lean-forward="true" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
+        <state relative-caret-position="256">
+          <caret line="73" column="91" selection-start-line="73" selection-start-column="91" selection-end-line="73" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

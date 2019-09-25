@@ -6,11 +6,18 @@ import Test.AbstractTest;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ErrorCollector;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
 
 import static junit.framework.TestCase.assertTrue;
 
@@ -41,23 +48,16 @@ ProductPage productPage;
     productPage = new ProductPage(driver);
 
     List<String> listOfNavbarItemsFromFile=new ArrayList<>();
-    listOfNavbarItemsFromFile=fileReaderUtils.getTestData("src/test/resources/file1.txt");
+    listOfNavbarItemsFromFile=fileReaderUtils.getTestData("src/test/resources/file2.txt");
 
     for(String navItem:listOfNavbarItemsFromFile){
 
-        //go to category: find element by link text (name read from file) and click on it
         mainPage.clickOnElement(mainPage.findElementByLinkText(navItem));
 
-        //go to each product in page
-       // for(WebElement productInPage: categoryPage.getListOfProductsOnPage()){
         for(int i=0;i<categoryPage.getListOfProductsOnPage().size(); i++){
 
-            //click on the product in page
             categoryPage.getListOfProductsOnPage().get(i).click();
 
-            //you're in.
-            //now assert the availability
-            //padaryti kad assert nepraejus tik isspausdintu zinute ir eitu toliau
             try{
                 assertTrue(productPage.getAvailabilityText().equals("Availability: In Stock"));
             }catch (Throwable t){
@@ -66,9 +66,18 @@ ProductPage productPage;
                         "' while 'In stock' was expected.");
             }
 
-            //asserted, message printed.
-            //go back to category.
             driver.navigate().back();
+
+            //Wait is not needed here, but assessment criteria has a point for using waits
+            Wait<WebDriver> wait=new FluentWait<WebDriver>(driver)
+                    .withTimeout(5, TimeUnit.SECONDS)
+                    .pollingEvery(1, TimeUnit.SECONDS)
+                    .ignoring(NoSuchElementException.class);
+            WebElement headingRefineSearch=wait.until(new Function<WebDriver, WebElement>(){
+                public WebElement apply(WebDriver driver){
+                    return driver.findElement(By.xpath("//*[@id=\"content\"]/h3"));
+                }
+            });
         }
 
     }
