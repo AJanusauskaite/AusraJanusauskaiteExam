@@ -26,11 +26,11 @@ import static junit.framework.TestCase.assertTrue;
  * 2. go to each category
  * 3. inside the category, click on each product
  * 4. inside each product page, check item availability (In stock / Out of stock / Pre-order)
- * 5. assert that item is in stock
+ * 5. assert that item is Availability is In stock
  * 6. for all the products that have availability is not In stock, print out a message to console and fail the test:
  *      "Category [category name] , product [product name] availability is [availability]"
  *
- *      Link to test case and defect report:
+ *  Link to file with test case and defect report:
  *      https://docs.google.com/spreadsheets/d/1SLjZIR124kCqQIFf-v6L_c5Yk-NFw1DR6w-1nv2Gu4Y/edit?usp=sharing
  */
 
