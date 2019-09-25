@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cf1b010-f1d0-4d9b-ace6-8969eaf92618" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestItemAvailability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestItemAvailability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="138">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -94,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestItemAvailability.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+            <state relative-caret-position="277">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2985#2986#0" expanded="true" />
@@ -164,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Pages/AbstractPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/FileUtils/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/FileUtils/FileReaderUtils.java" />
@@ -175,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/Pages/ProductPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Test/AbstractTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestItemAvailability.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -185,7 +185,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="550" />
     <option name="y" value="10" />
     <option name="width" value="832" />
@@ -321,14 +321,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569391391472</updated>
-      <workItem from="1569391394735" duration="7664000" />
+      <workItem from="1569391394735" duration="8251000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestItemAvailability_checkItemAvailability - 2019.09.25 at 10h 00m 53s.xml">
-      <configuration name="TestItemAvailability.checkItemAvailability" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestItemAvailability_checkItemAvailability - 2019.09.25 at 10h 05m 18s.xml">
       <configuration name="TestItemAvailability.checkItemAvailability" configurationId="JUnit" />
     </history-entry>
@@ -356,9 +353,12 @@
     <history-entry file="TestItemAvailability_checkItemAvailability - 2019.09.25 at 11h 30m 46s.xml">
       <configuration name="TestItemAvailability.checkItemAvailability" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestItemAvailability_checkItemAvailability - 2019.09.25 at 11h 34m 37s.xml">
+      <configuration name="TestItemAvailability.checkItemAvailability" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7664000" />
+    <option name="totallyTimeSpent" value="8251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -369,7 +369,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -379,7 +379,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,13 +399,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/AbstractTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -514,13 +507,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestItemAvailability.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+        <state relative-caret-position="277">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2985#2986#0" expanded="true" />
             <element signature="e#3073#3074#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
         </state>
       </provider>
     </entry>
