@@ -29,6 +29,9 @@ import static junit.framework.TestCase.assertTrue;
  * 5. assert that item is in stock
  * 6. for all the products that have availability is not In stock, print out a message to console and fail the test:
  *      "Category [category name] , product [product name] availability is [availability]"
+ *
+ *      Link to test case and defect report:
+ *      https://docs.google.com/spreadsheets/d/1SLjZIR124kCqQIFf-v6L_c5Yk-NFw1DR6w-1nv2Gu4Y/edit?usp=sharing
  */
 
 public class TestItemAvailability extends AbstractTest{
@@ -48,7 +51,7 @@ ProductPage productPage;
     productPage = new ProductPage(driver);
 
     List<String> listOfNavbarItemsFromFile=new ArrayList<>();
-    listOfNavbarItemsFromFile=fileReaderUtils.getTestData("src/test/resources/file2.txt");
+    listOfNavbarItemsFromFile=fileReaderUtils.getTestData("src/test/resources/file1.txt");
 
     for(String navItem:listOfNavbarItemsFromFile){
 
@@ -75,7 +78,7 @@ ProductPage productPage;
                     .ignoring(NoSuchElementException.class);
             WebElement headingRefineSearch=wait.until(new Function<WebDriver, WebElement>(){
                 public WebElement apply(WebDriver driver){
-                    return driver.findElement(By.xpath("//*[@id=\"content\"]/h3"));
+                    return driver.findElement(By.id("list-view"));
                 }
             });
         }
